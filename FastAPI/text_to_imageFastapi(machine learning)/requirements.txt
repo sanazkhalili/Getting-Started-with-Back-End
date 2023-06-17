@@ -1,0 +1,5 @@
+diffusers==0.10.2
+fastapi==0.97.0
+pydantic==1.10.9
+torch==2.0.1
+uvicorn

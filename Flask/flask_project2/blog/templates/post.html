@@ -1,0 +1,11 @@
+<html>
+     {% include 'include/error_messages.html'%}
+    <form action="" method="post">
+        
+        {{form.csrf_token}}
+        {{form.title.label}} {{form.title}}
+        {{form.content.label}} {{form.content}}
+       
+        <input type="submit" value="create">
+    </form>
+</html>

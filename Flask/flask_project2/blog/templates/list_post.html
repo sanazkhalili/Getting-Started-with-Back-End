@@ -1,0 +1,9 @@
+<html>
+    <form action="" method="get">
+        {{form.csrf_token}}
+        {%for post in posts.}
+        {{form.username.label}} {{form.username}}
+        
+        <input type="submit" value="login">
+    </form>
+</html>

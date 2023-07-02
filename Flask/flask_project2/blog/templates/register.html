@@ -1,0 +1,13 @@
+<html>
+     {% include 'include/error_messages.html'%}
+    <form action="" method="post">
+        {{form.csrf_token}}
+        {{form.username.label}} {{form.username}}
+        {{form.password.label}} {{form.password}}
+        {{form.email.label}} {{form.email}}
+        {{form.confirm_pass.label}} {{form.confirm_pass}}
+        {{form.field_recap.lable}}{{form.field_recap}}
+       
+        <input type="submit" value="register">
+    </form>
+</html>
